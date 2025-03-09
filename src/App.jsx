@@ -8,7 +8,7 @@ ModuleRegistry.registerModules([AllCommunityModule]);
 function App() {
 
   const [rowData, setRowData] = useState([
-    {Date:'Wed 5 Mar, 9:46', Name:'Nifty 22200 CE', Qty:75, Entry:124, Exit:200, SL:115, Status: 'Profit'},
+    { Date:'Wed 5 Mar, 9:46', Name:'Nifty 22200 CE', Qty:75, Entry:124, Exit:200, SL:115, Status: 'Profit'},
     { Date: "Wed 5 Mar, 9:52", Name: "Nifty 22300 PE", Qty: 75, Entry: 140, Exit: 115, SL: 115, Status: "Loss" },
     { Date: "Wed 5 Mar, 10:05", Name: "Nifty 22100 CE", Qty: 75, Entry: 110, Exit: 150, SL: 100, Status: "Profit" },
     { Date: "Wed 5 Mar, 10:22", Name: "Nifty 22050 CE", Qty: 75, Entry: 95, Exit: 85, SL: 85, Status: "Loss" },
